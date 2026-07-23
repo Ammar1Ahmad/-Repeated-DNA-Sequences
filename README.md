@@ -1,4 +1,4 @@
-# -Repeated-DNA-Sequences
+
 <div align="center">
 
 # 🧬 LeetCode 187. Repeated DNA Sequences
