@@ -1,5 +1,119 @@
 # -Repeated-DNA-Sequences
-# 187. Repeated DNA Sequences
+<div align="center">
+
+# 🧬 LeetCode 187. Repeated DNA Sequences
+
+<img src="https://img.shields.io/badge/LeetCode-187-orange?style=for-the-badge&logo=leetcode" />
+<img src="https://img.shields.io/badge/Difficulty-Medium-yellow?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk" />
+<img src="https://img.shields.io/badge/Approach-HashSet%20%2B%20Sliding%20Window-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Time-O(n)-brightgreen?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Space-O(n)-success?style=for-the-badge" />
+
+### Efficient Hashing Solution for Detecting Repeated 10-Letter DNA Sequences
+
+*A clean, interview-ready Java implementation with detailed explanation, algorithm, correctness proof, and complexity analysis.*
+
+</div>
+
+---
+
+# 📖 Overview
+
+DNA molecules are composed of four nucleotides:
+
+| Symbol | Nucleotide |
+|:------:|:-----------|
+| 🅰️ | Adenine |
+| 🌙 | Cytosine |
+| 🟢 | Guanine |
+| 🔺 | Thymine |
+
+Given a DNA string, the objective is to identify every **10-character-long sequence** that appears **more than once**.
+
+This repository demonstrates an optimal **Sliding Window + HashSet** solution that efficiently detects duplicate sequences while maintaining excellent readability.
+
+---
+
+# ✨ Features
+
+✅ Clean Java Implementation
+
+✅ Interview Friendly Solution
+
+✅ Sliding Window Technique
+
+✅ HashSet Based Duplicate Detection
+
+✅ Detailed Explanation
+
+✅ Complexity Analysis
+
+✅ Well Documented Code
+
+---
+
+# 🚀 Approach
+
+The algorithm slides a fixed window of **10 characters** across the DNA string.
+
+For every window:
+
+- Extract the current DNA sequence.
+- Store unseen sequences inside a HashSet.
+- If a sequence appears again, save it into the answer set.
+- Finally return every repeated sequence.
+
+Since every substring is processed only once, the solution remains highly efficient.
+
+---
+
+# 📊 Complexity
+
+| Operation | Complexity |
+|-----------|------------|
+| Time | **O(n)** |
+| Space | **O(n)** |
+
+---
+
+# 🛠️ Technologies
+
+- Java
+- HashSet
+- Sliding Window
+- String Processing
+
+---
+
+# 💡 Why This Solution?
+
+- Linear Time Complexity
+- Constant Window Size
+- No Redundant Processing
+- Easy to Understand
+- Production Quality Code
+- Ideal for Coding Interviews
+
+---
+
+# 📂 Repository Structure
+
+```
+187-Repeated-DNA-Sequences/
+│
+├── README.md
+├── Solution.java
+└── LICENSE
+```
+
+---
+
+# ⭐ If you found this repository helpful
+
+Give it a ⭐ on GitHub to support future high-quality LeetCode solutions!
+
+---
 
 > **LeetCode Medium**  
 > Find every 10-letter-long DNA sequence that appears more than once in a DNA string.
